@@ -1,6 +1,6 @@
 namespace LibraryAnagramTest
 {
-    public class Tests
+    public class AnagramTest
     {
         [SetUp]
         public void Setup()
