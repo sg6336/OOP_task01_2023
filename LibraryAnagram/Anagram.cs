@@ -2,8 +2,28 @@
 {
     public class Anagram
     {
-        static public string Reverse(string word)
+        public string Reverse(string input)
+        { 
+            if(input == null)
+            { 
+                return string.Empty; 
+            }
+            else if (input == "")
+            {
+                return string.Empty;
+            }
+
+            string[] words = input.Split(' ');
+            for (int i = 0; i < words.Length; i++)
+            {
+                words[i] = ReverseEachWord(words[i]);
+            }
+            return string.Join(' ', words);
+        }
+
+        private string ReverseEachWord(string word)
         {
+
             char[] chars = word.ToCharArray();
             int left = 0;                              // index for left side
             int right = chars.Length - 1;              // index for right side

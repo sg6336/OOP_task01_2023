@@ -61,11 +61,28 @@ namespace ConsoleAnagram.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hello.
+        ///   Looks up a localized string similar to * Name: Anagram
+        ///* Function: Create a console application for reverse each word* in the input line but all non-alphabetic symbols should stay in their original places.
+        ///* Author: Oleksandr Leoshko
+        ///* Co-author: Maksym Oganesyan
+        ///* Date: 15.02.2023
+        ///* Copyright (c) 2023
+        ///* All right reserved
+        ///*
+        ///* Type text and press Enter to anagram your text..
         /// </summary>
         internal static string Greetings {
             get {
                 return ResourceManager.GetString("Greetings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
             }
         }
     }
