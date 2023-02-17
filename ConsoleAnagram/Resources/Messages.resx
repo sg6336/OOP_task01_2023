@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Action" xml:space="preserve">
-    <value>*Type some text: </value>
+    <value>* Type some text: </value>
   </data>
   <data name="Greetings" xml:space="preserve">
     <value>* Name: Anagram
@@ -130,9 +130,9 @@
 * All right reserved</value>
   </data>
   <data name="Last_Action" xml:space="preserve">
-    <value>*To restart press Enter or to exit press SPACE</value>
+    <value>* To restart press Enter or to exit press SPACE</value>
   </data>
   <data name="Result" xml:space="preserve">
-    <value>*Reversed string: </value>
+    <value>* Reversed string: </value>
   </data>
 </root>
