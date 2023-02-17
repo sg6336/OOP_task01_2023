@@ -7,14 +7,29 @@ namespace ConsoleAnagram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Messages.Greetings);                                          
-            
-            var obj = new Anagram();
+            Console.CursorVisible= true;
+            Console.WriteLine(Messages.Greetings);
+            ConsoleKeyInfo Button;
 
-            string input = Console.ReadLine();
-            
-            Console.WriteLine("Reversed string: " + obj.Reverse(input));
+            do
+            {
+                var obj = new Anagram();
+                Console.WriteLine();
+                Console.WriteLine("*Type some text:\n");
 
+                string input = Console.ReadLine();
+
+                Console.WriteLine();
+                Console.WriteLine("*Reversed string: " + obj.Reverse(input));
+                Console.WriteLine();
+                Console.WriteLine("*To restart press Enter or to exit press SPACE");
+
+                Button = Console.ReadKey();
+                if (Button.Key == ConsoleKey.Spacebar)
+                {
+                    Environment.Exit(0);
+                }
+            } while (Button.Key == ConsoleKey.Enter);
         }
     }
 }   
