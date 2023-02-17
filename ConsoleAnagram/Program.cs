@@ -15,14 +15,15 @@ namespace ConsoleAnagram
             {
                 var obj = new Anagram();
                 Console.WriteLine();
-                Console.WriteLine("*Type some text:\n");
+                Console.WriteLine(Messages.Action);
+                Console.WriteLine();
 
                 string input = Console.ReadLine();
 
                 Console.WriteLine();
-                Console.WriteLine("*Reversed string: " + obj.Reverse(input));
+                Console.WriteLine(Messages.Result + obj.Reverse(input));
                 Console.WriteLine();
-                Console.WriteLine("*To restart press Enter or to exit press SPACE");
+                Console.WriteLine(Messages.Last_Action);
 
                 Button = Console.ReadKey();
                 if (Button.Key == ConsoleKey.Spacebar)
