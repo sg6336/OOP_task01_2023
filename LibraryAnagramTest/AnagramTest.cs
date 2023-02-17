@@ -4,32 +4,35 @@ namespace LibraryAnagramTest
 {
     public class Tests
     {
+        Anagram objtest = new Anagram();
+
         [Test]
-        public void Reverse_AlphabetOnly()
+
+        //easy tests
+
+        public void IsQuickTest(string testString, string expectedResult)
         {
-            string result = Anagram.Reverse("hello");
-            Assert.AreEqual("olleh", result);
+            Assert.That(objtest.Reverse(testString), Is.EqualTo(expectedResult));
         }
 
         [Test]
-        public void Reverse_NonAlphabetOnly()
+
+        //hard tests
+
+        public void IsMixTest(string testString, string expectedResult)
         {
-            string result = Anagram.Reverse("1234");
-            Assert.AreEqual("1234", result);
+            Assert.That(objtest.Reverse(testString), Is.EqualTo(expectedResult));
         }
 
         [Test]
-        public void Reverse_AlphabetAndNonAlphabet()
+
+        // empty tests
+
+        public void IsNullOrEmptyTest(string testString, string expectedResult)
         {
-            string result = Anagram.Reverse("hello, world!");
-            Assert.AreEqual("dlrow, olleh!", result);
+            Assert.That(objtest.Reverse(testString), Is.EqualTo(expectedResult));
         }
 
-        [Test]
-        public void Reverse_EmptyString()
-        {
-            string result = Anagram.Reverse("");
-            Assert.AreEqual("", result);
-        }
+
     }
 }
