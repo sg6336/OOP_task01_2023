@@ -36,7 +36,5 @@ namespace LibraryAnagramTest
         {
             Assert.That(objtest.Reverse(testString), Is.EqualTo(expectedResult));
         }
-
-
     }
 }
