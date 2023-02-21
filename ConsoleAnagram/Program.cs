@@ -1,4 +1,6 @@
-﻿using System.Resources;
+﻿// Умова
+
+using System.Resources;
 using LibraryAnagram;
 using System.Globalization;
 using System.Reflection;
@@ -12,8 +14,7 @@ namespace ConsoleAnagram
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.Unicode;
-            Console.InputEncoding = Encoding.Unicode;
+
 
             Console.WriteLine("Hello!");
 

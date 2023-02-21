@@ -2,6 +2,7 @@
 using System.Text;
 using System.Xml.Linq;
 
+
 namespace LibraryAnagram
 {
     public class Anagram
@@ -19,12 +20,12 @@ namespace LibraryAnagram
             string[] words = str.Split(' ');
             for (int i = 0; i < words.Length; i++)
             {
-                words[i] = ReverseEachWord(words[i]);
+                words[i] = ReverseWord(words[i]);
             }
             return string.Join(' ', words);
         }
 
-        private string ReverseEachWord(string word)
+        private string ReverseWord(string word)
         {
             string result = "";
             int length = word.Length;
