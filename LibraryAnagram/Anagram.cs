@@ -20,12 +20,12 @@ namespace LibraryAnagram
             string[] words = str.Split(' ');
             for (int i = 0; i < words.Length; i++)
             {
-                words[i] = ReverseWord(words[i]);
+                words[i] = ReverseEachWord(words[i]);
             }
             return string.Join(' ', words);
         }
 
-        private string ReverseWord(string word)
+        private string ReverseEachWord(string word)
         {
             string result = "";
             int length = word.Length;
