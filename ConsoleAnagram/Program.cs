@@ -1,4 +1,5 @@
-﻿namespace ConsoleAnagram
+﻿using ConsoleAnagram.Resurses;
+namespace ConsoleAnagram
 {
     internal class Program
     {

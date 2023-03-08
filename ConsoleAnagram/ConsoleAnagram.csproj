@@ -11,4 +11,19 @@
     <ProjectReference Include="..\LibraryAnagram\LibraryAnagram.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Resurses\Messeges.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Messeges.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resurses\Messeges.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messeges.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
