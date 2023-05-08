@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1 1", "ConsoleApp1 1\ConsoleApp1 1.csproj", "{55AB25DC-9F5E-4633-95CE-7B378880788C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAnagram", "ConsoleApp1 1\ConsoleAnagram.csproj", "{55AB25DC-9F5E-4633-95CE-7B378880788C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1 1", "TestProject1 1\TestProject1 1.csproj", "{77651DD1-DE33-4E0B-A1EB-7AC1FD2FD685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryAnagramTest", "TestProject1 1\LibraryAnagramTest.csproj", "{77651DD1-DE33-4E0B-A1EB-7AC1FD2FD685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{CE35226B-CD21-4E27-A71E-2088614A8149}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAnagram", "ClassLibrary1\LibraryAnagram.csproj", "{CE35226B-CD21-4E27-A71E-2088614A8149}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
