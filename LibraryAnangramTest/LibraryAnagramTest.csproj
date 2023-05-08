@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\LibraryAnagram.csproj" />
+    <ProjectReference Include="..\LibraryAnagram\LibraryAnagram.csproj" />
   </ItemGroup>
 
 </Project>
