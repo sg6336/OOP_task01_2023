@@ -1,0 +1,15 @@
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\bin\Debug\net7.0\Task1_Kovaly.exe
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\bin\Debug\net7.0\Task1_Kovaly.deps.json
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\bin\Debug\net7.0\Task1_Kovaly.runtimeconfig.json
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\bin\Debug\net7.0\Task1_Kovaly.dll
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\bin\Debug\net7.0\Task1_Kovaly.pdb
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\Task1_Kovaly.csproj.AssemblyReference.cache
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\Task1_Kovaly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\Task1_Kovaly.AssemblyInfoInputs.cache
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\Task1_Kovaly.AssemblyInfo.cs
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\Task1_Kovaly.csproj.CoreCompileInputs.cache
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\Task1_Kovaly.dll
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\refint\Task1_Kovaly.dll
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\Task1_Kovaly.pdb
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\Task1_Kovaly.genruntimeconfig.cache
+C:\Users\Profesor\source\repos\Task1_Kovaly\Task1_Kovaly\obj\Debug\net7.0\ref\Task1_Kovaly.dll
